@@ -39,13 +39,15 @@
 
 ## 🧥 日本在售核心款（已 3-0 验证）
 
-| 分层 | 产品 | 关键技术 | 参考价 |
-|------|------|----------|--------|
-| 硬壳 | Ascent Peak Jacket | 70D GORE-TEX Pro（ePE 膜） | ¥72,600 |
-| 顶级羽绒 | Ascent Peak Cloud Down Hoodie | 900FP 拒水绒 + 钛镀膜里衬 | ¥110,000 |
-| 主动保温 | Ascent Peak HYB VENTRIX Jacket | VENTRIX 化纤 | ¥33,000 |
-| 抓绒 | Expedition Grid Fleece Full Zip Hoodie | FUTUREFLEECE | ¥19,800 |
-| 活动羽绒 L3 | L3 50/50 Down Hoodie | 800FP ProDown | ¥52,800 |
+| 分层 | 产品 | 关键技术 | 型号 | 参考价 |
+|------|------|----------|------|--------|
+| 硬壳 | Ascent Peak Jacket | 70D GORE-TEX Pro（ePE 膜） | `NP62521` | ¥72,600 |
+| 顶级羽绒 | Ascent Peak Cloud Down Hoodie | 900FP 拒水绒 + 钛镀膜里衬 | — | ¥110,000 |
+| 主动保温 | Ascent Peak HYB VENTRIX Jacket | VENTRIX 化纤 | — | ¥33,000 |
+| 抓绒 | Expedition Grid Fleece Full Zip Hoodie | FUTUREFLEECE | — | ¥19,800 |
+| 活动羽绒 L3 | L3 50/50 Down Hoodie | 800FP ProDown | `ND52022` | ¥52,800 |
+
+> **型号说明**：`NP62521`（Ascent Peak Jacket 硬壳）与 `ND52022`（L3 50/50 Down Hoodie）为研究中已核验的日本市场货号；其余三款官方货号未在本次研究中明确，购买时请以 [thenorthface.jp](https://www.thenorthface.jp/special/summit_series25/products/) 商品页为准。
 
 ## 🧗 推荐分层方案（全部巅峰系列）
 
