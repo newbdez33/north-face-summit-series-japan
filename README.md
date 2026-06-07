@@ -42,12 +42,12 @@
 | 分层 | 产品 | 关键技术 | 型号 | 参考价 |
 |------|------|----------|------|--------|
 | 硬壳 | Ascent Peak Jacket | 70D GORE-TEX Pro（ePE 膜） | `NP62521` | ¥72,600 |
-| 顶级羽绒 | Ascent Peak Cloud Down Hoodie | 900FP 拒水绒 + 钛镀膜里衬 | — | ¥110,000 |
-| 主动保温 | Ascent Peak HYB VENTRIX Jacket | VENTRIX 化纤 | — | ¥33,000 |
-| 抓绒 | Expedition Grid Fleece Full Zip Hoodie | FUTUREFLEECE | — | ¥19,800 |
+| 顶级羽绒 | Ascent Peak Cloud Down Hoodie | 900FP 拒水绒 + 钛镀膜里衬 | `ND92520` | ¥110,000 |
+| 主动保温 | Ascent Peak HYB VENTRIX Jacket | VENTRIX 化纤 | `NY82520` | ¥33,000 |
+| 抓绒 | Expedition Grid Fleece Full Zip Hoodie | FUTUREFLEECE | `NL72322` | ¥19,800 |
 | 活动羽绒 L3 | L3 50/50 Down Hoodie | 800FP ProDown | `ND52022` | ¥52,800 |
 
-> **型号说明**：`NP62521`（Ascent Peak Jacket 硬壳）与 `ND52022`（L3 50/50 Down Hoodie）为研究中已核验的日本市场货号；其余三款官方货号未在本次研究中明确，购买时请以 [thenorthface.jp](https://www.thenorthface.jp/special/summit_series25/products/) 商品页为准。
+> **型号说明**：以上五款均为已核验的日本市场货号（来源：[thenorthface.jp](https://www.thenorthface.jp/special/summit_series25/products/) 与 Goldwin 官方商店），多为 **UNISEX 中性**款。注意：`NY82520` 另有限定配色 `NY82520R`（UNDYED × SUMMIT GOLD）；`NL72322` 是「Full Zip Hoodie」（¥19,800），与名称相近但**不同的**「Expedition Grid Fleece Hoodie」`NL22321`（¥17,600，巴拉克拉法帽款）勿混淆。货号与价格可能随季节 / 库存变动，以官网为准。
 
 ## 🧗 推荐分层方案（全部巅峰系列）
 
