@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>THE NORTH FACE 巅峰系列 · 日本市场产品线与高山分层指南</title>
+<meta name="description" content="The North Face Summit Series（巅峰系列 / サミットシリーズ）日本市场产品线、全球参考产品线，以及针对日本北阿尔卑斯约 3000m 夏季帐篷露营的服装与保暖分层建议。仅含巅峰系列产品。" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@300;400;500;600;700&family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<script>document.documentElement.classList.add('js');</script>
+<style>
+  :root{
+    --bg:#0b0d10;
+    --bg-2:#101418;
+    --panel:#14191e;
+    --panel-2:#171d23;
+    --card:#161b21;
+    --line:rgba(255,255,255,.09);
+    --line-strong:rgba(255,255,255,.16);
+    --ink:#eef2f4;
+    --ink-soft:#c4ccd2;
+    --muted:#8b97a0;
+    --muted-2:#5f6a72;
+    --red:#e8392c;
+    --red-bright:#ff4d3d;
+    --cyan:#5fcedd;
+    --cyan-bright:#7fe1ee;
+    --teal:#33b98c;
+    --amber:#e3a13a;
+    --orange:#ef6b3b;
+    --jp:#36c08a;
+    --ref:#5f9fdd;
+    --shadow:0 24px 60px -28px rgba(0,0,0,.85);
+    --maxw:1160px;
+    --mono:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;
+    --display:"Anton",sans-serif;
+    --label:"Oswald",sans-serif;
+    --body:"Archivo","PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC","Source Han Sans SC",sans-serif;
+    --cjk:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC","Source Han Sans SC",sans-serif;
+  }
+
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;scroll-padding-top:72px;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font-family:var(--body);
+    font-size:16px;
+    line-height:1.72;
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+    overflow-x:hidden;
+  }
+  /* grain overlay */
+  body::before{
+    content:"";position:fixed;inset:0;z-index:9999;pointer-events:none;opacity:.035;mix-blend-mode:overlay;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  a{color:var(--cyan);text-decoration:none;border-bottom:1px solid rgba(95,206,221,.3);transition:color .2s,border-color .2s;}
+  a:hover{color:var(--cyan-bright);border-color:var(--cyan-bright);}
+
+  ::selection{background:var(--red);color:#fff;}
+
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 28px;}
+
+  /* ---------- TOP NAV ---------- */
+  .topnav{
+    position:sticky;top:0;z-index:200;
+    background:rgba(11,13,16,.82);
+    backdrop-filter:blur(14px) saturate(140%);
+    -webkit-backdrop-filter:blur(14px) saturate(140%);
+    border-bottom:1px solid var(--line);
+  }
+  .topnav .wrap{display:flex;align-items:center;gap:18px;height:60px;}
+  .brandmark{display:flex;align-items:center;gap:10px;font-family:var(--label);text-transform:uppercase;letter-spacing:.16em;font-weight:600;font-size:13px;white-space:nowrap;}
+  .brandmark .bar{width:6px;height:22px;background:var(--red);box-shadow:0 0 18px rgba(232,57,44,.6);}
+  .navlinks{display:flex;gap:4px;margin-left:auto;overflow-x:auto;scrollbar-width:none;}
+  .navlinks::-webkit-scrollbar{display:none;}
+  .navlinks a{
+    font-family:var(--label);text-transform:uppercase;letter-spacing:.1em;font-size:12px;font-weight:500;
+    color:var(--muted);padding:7px 12px;border-radius:2px;border-bottom:none;white-space:nowrap;transition:color .2s,background .2s;
+  }
+  .navlinks a:hover,.navlinks a.active{color:var(--ink);background:rgba(255,255,255,.06);}
+  .navlinks a.active{color:var(--red-bright);}
+
+  /* ---------- HERO ---------- */
+  .hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line);background:linear-gradient(180deg,#0c0f13 0%,#0a0c0f 60%,#0b0d10 100%);}
+  .hero::after{content:"";position:absolute;inset:0;background:radial-gradient(120% 90% at 78% 18%,rgba(232,57,44,.16),transparent 55%),radial-gradient(90% 70% at 12% 90%,rgba(95,206,221,.08),transparent 60%);pointer-events:none;}
+  #topo{position:absolute;inset:0;width:100%;height:100%;opacity:.5;pointer-events:none;}
+  .hero .wrap{position:relative;z-index:2;padding-top:84px;padding-bottom:74px;}
+  .kicker{font-family:var(--label);text-transform:uppercase;letter-spacing:.42em;font-size:13px;color:var(--cyan);font-weight:500;margin:0 0 18px;}
+  .kicker::before{content:"";display:inline-block;width:34px;height:1px;background:var(--cyan);vertical-align:middle;margin-right:14px;opacity:.7;}
+  h1.title{
+    font-family:var(--display);font-weight:400;line-height:.92;letter-spacing:.01em;
+    font-size:clamp(54px,11vw,138px);margin:0;color:var(--ink);text-transform:uppercase;
+    text-shadow:0 2px 30px rgba(0,0,0,.5);
+  }
+  h1.title .cn{display:block;font-family:var(--cjk);font-weight:800;font-size:clamp(26px,4.6vw,52px);letter-spacing:.18em;line-height:1.1;margin-top:10px;color:var(--ink-soft);}
+  .tagline{font-family:var(--label);font-weight:500;text-transform:uppercase;letter-spacing:.26em;font-size:clamp(13px,1.7vw,17px);color:var(--red-bright);margin:26px 0 0;}
+  .tagline .tm{font-size:.6em;vertical-align:super;opacity:.7;}
+  .context-bar{display:flex;flex-wrap:wrap;gap:10px;margin-top:34px;}
+  .ctx-chip{display:inline-flex;align-items:center;gap:8px;font-family:var(--label);text-transform:uppercase;letter-spacing:.1em;font-size:12px;font-weight:500;color:var(--ink-soft);background:rgba(255,255,255,.04);border:1px solid var(--line);padding:8px 14px;border-radius:2px;}
+  .ctx-chip b{color:var(--cyan);font-weight:600;}
+  .hero-note{margin-top:30px;max-width:680px;color:var(--muted);font-size:14.5px;line-height:1.7;}
+
+  /* ---------- METHODOLOGY STRIP ---------- */
+  .method{background:var(--bg-2);border-bottom:1px solid var(--line);}
+  .method .wrap{padding:26px 28px;display:grid;grid-template-columns:repeat(6,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:4px;overflow:hidden;margin-top:34px;margin-bottom:34px;}
+  .stat{background:var(--panel);padding:18px 16px;text-align:center;}
+  .stat .num{font-family:var(--display);font-size:34px;line-height:1;color:var(--ink);}
+  .stat .num.red{color:var(--red-bright);}
+  .stat .num.cyan{color:var(--cyan);}
+  .stat .lbl{font-family:var(--label);text-transform:uppercase;letter-spacing:.12em;font-size:10.5px;color:var(--muted);margin-top:8px;}
+  .method-cap{font-size:13px;color:var(--muted-2);text-align:center;padding-bottom:24px;margin-top:-12px;}
+  .method-cap b{color:var(--muted);font-weight:600;}
+
+  /* ---------- SECTIONS ---------- */
+  section{padding:74px 0;border-bottom:1px solid var(--line);position:relative;}
+  .sec-head{display:flex;align-items:flex-start;gap:24px;margin-bottom:14px;}
+  .sec-num{font-family:var(--display);font-size:clamp(48px,8vw,92px);line-height:.8;color:transparent;-webkit-text-stroke:1.5px rgba(232,57,44,.55);text-stroke:1.5px rgba(232,57,44,.55);flex-shrink:0;}
+  .sec-titles{padding-top:6px;}
+  .sec-eyebrow{font-family:var(--label);text-transform:uppercase;letter-spacing:.3em;font-size:12px;color:var(--cyan);font-weight:500;margin:0 0 8px;}
+  h2{font-family:var(--cjk);font-weight:800;font-size:clamp(26px,3.6vw,40px);line-height:1.15;margin:0;letter-spacing:.01em;}
+  .sec-intro{max-width:760px;color:var(--ink-soft);font-size:15.5px;margin:22px 0 8px;}
+  .sec-intro.muted{color:var(--muted);font-size:14.5px;}
+
+  /* ---------- BADGES / PILLS ---------- */
+  .pill{display:inline-flex;align-items:center;gap:6px;font-family:var(--label);text-transform:uppercase;letter-spacing:.08em;font-size:10.5px;font-weight:600;padding:3px 9px;border-radius:2px;line-height:1.6;white-space:nowrap;}
+  .pill.jp{color:var(--jp);background:rgba(54,192,138,.12);border:1px solid rgba(54,192,138,.4);}
+  .pill.ref{color:var(--ref);background:rgba(95,159,221,.12);border:1px solid rgba(95,159,221,.4);}
+  .pill.conf{color:var(--teal);background:rgba(51,185,140,.1);border:1px solid rgba(51,185,140,.32);}
+  .pill.flag{color:var(--amber);background:rgba(227,161,58,.1);border:1px solid rgba(227,161,58,.34);}
+  .pill.warn{color:var(--red-bright);background:rgba(232,57,44,.1);border:1px solid rgba(232,57,44,.4);}
+  .pill.dot::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor;}
+
+  .tag{display:inline-block;font-family:var(--mono);font-size:11px;font-weight:500;letter-spacing:.02em;color:var(--cyan);background:rgba(95,206,221,.08);border:1px solid rgba(95,206,221,.22);padding:2px 8px;border-radius:2px;margin:0 4px 4px 0;}
+  .tag.warm{color:var(--orange);background:rgba(239,107,59,.08);border-color:rgba(239,107,59,.24);}
+  .tag.neutral{color:var(--ink-soft);background:rgba(255,255,255,.05);border-color:var(--line);}
+
+  /* ---------- PRODUCT CARDS (Japan) ---------- */
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:20px;margin-top:38px;}
+  .card{
+    position:relative;background:linear-gradient(180deg,var(--card),#13181d);
+    border:1px solid var(--line);border-radius:5px;padding:24px 22px 20px;overflow:hidden;
+    transition:transform .35s cubic-bezier(.2,.7,.2,1),border-color .35s,box-shadow .35s;
+  }
+  .card::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--accent,var(--red));opacity:.85;}
+  .card:hover{transform:translateY(-5px);border-color:var(--line-strong);box-shadow:var(--shadow);}
+  .card .cat{font-family:var(--label);text-transform:uppercase;letter-spacing:.18em;font-size:11px;color:var(--accent,var(--red));font-weight:600;margin-bottom:12px;}
+  .card h3{font-family:var(--body);font-weight:700;font-size:19px;line-height:1.25;margin:0 0 4px;color:var(--ink);letter-spacing:.005em;}
+  .card .sub{font-family:var(--cjk);font-size:13px;color:var(--muted);margin-bottom:14px;}
+  .price-row{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:14px;}
+  .price{font-family:var(--mono);font-weight:600;font-size:21px;color:var(--ink);}
+  .sku{font-family:var(--mono);font-size:11px;color:var(--muted-2);letter-spacing:.04em;}
+  .card ul{list-style:none;margin:14px 0;padding:0;}
+  .card ul li{position:relative;padding-left:18px;font-size:13.5px;color:var(--ink-soft);margin-bottom:7px;line-height:1.55;}
+  .card ul li::before{content:"";position:absolute;left:0;top:9px;width:7px;height:1.5px;background:var(--accent,var(--red));}
+  .tags{margin:14px 0 4px;}
+  .card-foot{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:16px;padding-top:14px;border-top:1px solid var(--line);}
+  .card-foot .src{margin-left:auto;font-size:11.5px;}
+
+  /* ---------- REFERENCE TABLES (Global) ---------- */
+  .layer-block{margin-top:30px;}
+  .layer-block h3{display:flex;align-items:center;gap:12px;font-family:var(--cjk);font-weight:700;font-size:19px;margin:0 0 4px;}
+  .layer-block h3 .lt{font-family:var(--label);text-transform:uppercase;letter-spacing:.16em;font-size:12px;color:var(--cyan);font-weight:500;}
+  .layer-block .ld{color:var(--muted);font-size:13.5px;margin:0 0 16px;max-width:720px;}
+  .tbl-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:5px;background:var(--panel);}
+  table{width:100%;border-collapse:collapse;min-width:640px;}
+  thead th{font-family:var(--label);text-transform:uppercase;letter-spacing:.1em;font-size:11px;font-weight:600;color:var(--muted);text-align:left;padding:13px 16px;background:var(--panel-2);border-bottom:1px solid var(--line-strong);white-space:nowrap;}
+  tbody td{padding:14px 16px;border-bottom:1px solid var(--line);font-size:13.5px;color:var(--ink-soft);vertical-align:top;}
+  tbody tr:last-child td{border-bottom:none;}
+  tbody tr:hover{background:rgba(255,255,255,.025);}
+  td .pname{font-family:var(--body);font-weight:700;color:var(--ink);font-size:14.5px;display:block;margin-bottom:3px;}
+  td .psku{font-family:var(--mono);font-size:11px;color:var(--muted-2);}
+  td .pprice{font-family:var(--mono);font-weight:600;color:var(--ink);white-space:nowrap;}
+
+  /* ---------- GLOSSARY ---------- */
+  .glossary{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;margin-top:38px;}
+  .term{background:var(--panel);border:1px solid var(--line);border-radius:5px;padding:20px;transition:border-color .3s,transform .3s;}
+  .term:hover{border-color:var(--line-strong);transform:translateY(-3px);}
+  .term .tname{font-family:var(--mono);font-weight:600;font-size:15px;color:var(--cyan);letter-spacing:.01em;margin-bottom:4px;}
+  .term .tzh{font-family:var(--label);text-transform:uppercase;letter-spacing:.14em;font-size:10.5px;color:var(--muted-2);margin-bottom:11px;}
+  .term p{margin:0;font-size:13.5px;color:var(--ink-soft);line-height:1.62;}
+
+  /* ---------- RECOMMENDATION ---------- */
+  .rec-context{display:grid;grid-template-columns:1.3fr 1fr;gap:22px;margin-top:36px;}
+  @media(max-width:760px){.rec-context{grid-template-columns:1fr;}}
+  .rec-panel{background:var(--panel);border:1px solid var(--line);border-radius:5px;padding:26px;}
+  .rec-panel h3{font-family:var(--cjk);font-weight:700;font-size:18px;margin:0 0 14px;display:flex;align-items:center;gap:10px;}
+  .rec-panel h3::before{content:"";width:18px;height:3px;background:var(--red);}
+  .rec-panel p{font-size:14px;color:var(--ink-soft);margin:0 0 12px;}
+  .env-scale{display:flex;flex-direction:column;gap:0;font-family:var(--mono);font-size:12px;}
+  .env-row{display:flex;justify-content:space-between;align-items:center;padding:11px 0;border-bottom:1px dashed var(--line);}
+  .env-row:last-child{border-bottom:none;}
+  .env-row .k{color:var(--muted);}
+  .env-row .v{color:var(--ink);font-weight:500;}
+  .env-row .v.cold{color:var(--cyan-bright);}
+
+  .layering{margin-top:40px;position:relative;}
+  .lay-axis{position:absolute;left:0;top:0;bottom:0;width:2px;background:linear-gradient(180deg,var(--cyan),var(--teal),var(--amber),var(--orange),var(--cyan));opacity:.45;}
+  .lay-row{position:relative;display:grid;grid-template-columns:96px 1fr;gap:24px;padding:0 0 26px 0;}
+  .lay-marker{position:relative;padding-left:26px;}
+  .lay-marker::before{content:"";position:absolute;left:-5px;top:6px;width:12px;height:12px;border-radius:50%;background:var(--bg);border:2px solid var(--lc,var(--cyan));box-shadow:0 0 0 4px rgba(11,13,16,1),0 0 14px var(--lc,var(--cyan));}
+  .lay-marker .ln{font-family:var(--display);font-size:30px;color:var(--lc,var(--cyan));line-height:1;}
+  .lay-marker .lk{font-family:var(--label);text-transform:uppercase;letter-spacing:.12em;font-size:10px;color:var(--muted);margin-top:4px;}
+  .lay-card{background:linear-gradient(180deg,var(--card),#13181d);border:1px solid var(--line);border-left:3px solid var(--lc,var(--cyan));border-radius:5px;padding:20px 22px;transition:border-color .3s,transform .3s;}
+  .lay-card:hover{transform:translateX(4px);border-color:var(--line-strong);}
+  .lay-card .lrole{font-family:var(--label);text-transform:uppercase;letter-spacing:.16em;font-size:11px;color:var(--lc,var(--cyan));font-weight:600;margin-bottom:8px;}
+  .lay-card h4{font-family:var(--body);font-weight:700;font-size:18px;margin:0 0 2px;color:var(--ink);}
+  .lay-card .lzh{font-family:var(--cjk);font-size:13px;color:var(--muted);margin-bottom:12px;}
+  .lay-card .pickline{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:10px;}
+  .lay-card p{font-size:13.5px;color:var(--ink-soft);margin:10px 0 0;line-height:1.6;}
+  .alt{margin-top:12px;padding-top:12px;border-top:1px solid var(--line);font-size:13px;color:var(--muted);}
+  .alt b{color:var(--ink-soft);font-weight:600;}
+
+  .usage{margin-top:36px;background:var(--panel-2);border:1px solid var(--line);border-radius:5px;padding:26px;}
+  .usage h3{font-family:var(--cjk);font-weight:700;font-size:18px;margin:0 0 16px;}
+  .usage ol{margin:0;padding-left:22px;}
+  .usage ol li{font-size:14px;color:var(--ink-soft);margin-bottom:10px;line-height:1.6;}
+  .usage ol li b{color:var(--ink);}
+
+  .cost{margin-top:24px;display:flex;flex-wrap:wrap;align-items:center;gap:14px;background:rgba(232,57,44,.06);border:1px solid rgba(232,57,44,.22);border-radius:5px;padding:18px 22px;}
+  .cost .ct{font-family:var(--label);text-transform:uppercase;letter-spacing:.14em;font-size:12px;color:var(--red-bright);font-weight:600;}
+  .cost .cv{font-family:var(--mono);font-size:15px;color:var(--ink);font-weight:600;}
+  .cost .cn{font-size:12.5px;color:var(--muted);}
+
+  /* ---------- CALLOUTS ---------- */
+  .callout{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--amber);border-radius:5px;padding:20px 24px;margin-top:24px;}
+  .callout.warn{border-left-color:var(--red);}
+  .callout .ch{font-family:var(--label);text-transform:uppercase;letter-spacing:.14em;font-size:12px;font-weight:600;color:var(--amber);margin-bottom:10px;display:flex;align-items:center;gap:8px;}
+  .callout.warn .ch{color:var(--red-bright);}
+  .callout p,.callout li{font-size:13.5px;color:var(--ink-soft);line-height:1.62;}
+  .callout ul{margin:8px 0 0;padding-left:20px;}
+  .callout ul li{margin-bottom:8px;}
+  .callout strong{color:var(--ink);}
+
+  .refuted{display:grid;gap:14px;margin-top:20px;}
+  .refuted .rf{background:rgba(232,57,44,.05);border:1px solid rgba(232,57,44,.22);border-radius:5px;padding:16px 18px;}
+  .refuted .rf .rfh{display:flex;align-items:center;gap:10px;margin-bottom:8px;}
+  .refuted .rf .strike{font-size:13.5px;color:var(--muted);text-decoration:line-through;text-decoration-color:rgba(232,57,44,.6);}
+  .refuted .rf .corr{font-size:13.5px;color:var(--ink-soft);margin-top:6px;}
+  .refuted .rf .corr b{color:var(--teal);}
+
+  .oq{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px;margin-top:24px;}
+  .oq .q{background:var(--panel);border:1px solid var(--line);border-radius:5px;padding:18px;}
+  .oq .q .qn{font-family:var(--mono);font-size:12px;color:var(--cyan);margin-bottom:8px;}
+  .oq .q p{margin:0;font-size:13.5px;color:var(--ink-soft);line-height:1.6;}
+
+  /* ---------- SOURCES ---------- */
+  .src-group{margin-top:28px;}
+  .src-group h3{font-family:var(--label);text-transform:uppercase;letter-spacing:.16em;font-size:13px;color:var(--cyan);font-weight:600;margin:0 0 14px;display:flex;align-items:center;gap:10px;}
+  .src-group h3 .q-badge{font-family:var(--mono);font-size:10px;color:var(--muted-2);border:1px solid var(--line);padding:1px 7px;border-radius:2px;text-transform:none;letter-spacing:0;}
+  .src-list{display:grid;gap:8px;}
+  .src-list .s{display:flex;gap:12px;align-items:baseline;font-size:13px;padding:9px 14px;background:var(--panel);border:1px solid var(--line);border-radius:4px;}
+  .src-list .s .sn{font-family:var(--mono);font-size:11px;color:var(--muted-2);flex-shrink:0;}
+  .src-list .s a{word-break:break-all;border-bottom:none;}
+  .src-list .s .stag{margin-left:auto;flex-shrink:0;font-family:var(--label);text-transform:uppercase;letter-spacing:.08em;font-size:10px;color:var(--muted-2);}
+
+  /* ---------- FOOTER ---------- */
+  footer{padding:56px 0 70px;background:var(--bg-2);}
+  footer .wrap{display:flex;flex-direction:column;gap:18px;}
+  .foot-brand{font-family:var(--display);font-size:clamp(30px,5vw,52px);text-transform:uppercase;color:transparent;-webkit-text-stroke:1px var(--line-strong);text-stroke:1px var(--line-strong);line-height:.9;}
+  .foot-meta{display:flex;flex-wrap:wrap;gap:8px 28px;font-size:13px;color:var(--muted);}
+  .foot-meta b{color:var(--ink-soft);font-weight:600;}
+  .disclaimer{font-size:12.5px;color:var(--muted-2);line-height:1.7;max-width:880px;border-top:1px solid var(--line);padding-top:20px;}
+  .constraint-note{display:inline-flex;align-items:center;gap:10px;font-family:var(--label);text-transform:uppercase;letter-spacing:.12em;font-size:11px;color:var(--jp);border:1px solid rgba(54,192,138,.3);background:rgba(54,192,138,.06);padding:8px 14px;border-radius:2px;width:fit-content;}
+
+  /* ---------- REVEAL ANIM (progressive enhancement: hidden only when JS active) ---------- */
+  .reveal{transition:opacity .7s cubic-bezier(.2,.7,.2,1),transform .7s cubic-bezier(.2,.7,.2,1);}
+  .js .reveal{opacity:0;transform:translateY(26px);}
+  .reveal.in{opacity:1;transform:none;}
+  @media(prefers-reduced-motion:reduce){.js .reveal{opacity:1;transform:none;transition:none;}html{scroll-behavior:auto;}}
+
+  /* hero load stagger */
+  .hero .kicker,.hero h1,.hero .tagline,.hero .context-bar,.hero .hero-note{opacity:0;animation:rise .9s cubic-bezier(.2,.7,.2,1) forwards;}
+  .hero .kicker{animation-delay:.05s;}
+  .hero h1{animation-delay:.18s;}
+  .hero .tagline{animation-delay:.42s;}
+  .hero .context-bar{animation-delay:.56s;}
+  .hero .hero-note{animation-delay:.68s;}
+  @keyframes rise{to{opacity:1;transform:none;}}
+
+  /* ---------- RESPONSIVE ---------- */
+  @media(max-width:680px){
+    .method .wrap{grid-template-columns:repeat(3,1fr);}
+    .sec-head{gap:14px;}
+    .lay-row{grid-template-columns:64px 1fr;gap:14px;}
+    .lay-marker{padding-left:18px;}
+    body{font-size:15px;}
+  }
+
+  /* ---------- PRINT ---------- */
+  @media print{
+    :root{--bg:#fff;--ink:#111;--ink-soft:#222;--muted:#555;--panel:#fff;--card:#fff;--line:#ddd;}
+    body{background:#fff;color:#111;}
+    body::before,#topo,.hero::after,.topnav{display:none!important;}
+    .hero{background:#fff;border-bottom:2px solid #111;}
+    h1.title,.foot-brand,.sec-num{color:#111!important;-webkit-text-stroke:0!important;}
+    .card,.term,.lay-card,.rec-panel,.tbl-wrap{box-shadow:none!important;break-inside:avoid;}
+    a{color:#111;}
+    .reveal{opacity:1!important;transform:none!important;}
+    section{padding:28px 0;}
+  }
+</style>
+</head>
+<body>
+
+<!-- ===================== TOP NAV ===================== -->
+<nav class="topnav">
+  <div class="wrap">
+    <span class="brandmark"><span class="bar"></span>SUMMIT&nbsp;SERIES</span>
+    <div class="navlinks">
+      <a href="#overview">概览</a>
+      <a href="#japan">日本产品线</a>
+      <a href="#global">全球参考</a>
+      <a href="#tech">技术词汇</a>
+      <a href="#gear">装备建议</a>
+      <a href="#notes">注意事项</a>
+      <a href="#sources">数据来源</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ===================== HERO ===================== -->
+<header class="hero">
+  <svg id="topo" preserveAspectRatio="xMidYMid slice" viewBox="0 0 1200 600" aria-hidden="true"></svg>
+  <div class="wrap">
+    <p class="kicker">THE NORTH FACE · 户外装备研究报告</p>
+    <h1 class="title">SUMMIT<br/>SERIES<span class="cn">巅 峰 系 列</span></h1>
+    <p class="tagline">ATHLETE TESTED. EXPEDITION PROVEN.<span class="tm">™</span></p>
+
+    <div class="context-bar">
+      <span class="ctx-chip">市场焦点 · <b>日本 thenorthface.jp</b></span>
+      <span class="ctx-chip">使用场景 · <b>北阿尔卑斯 3000m</b></span>
+      <span class="ctx-chip">季节 · <b>夏季 · 帐篷露营</b></span>
+      <span class="ctx-chip">范围 · <b>服装与保暖分层</b></span>
+      <span class="ctx-chip">约束 · <b>仅巅峰系列</b></span>
+    </div>
+
+    <p class="hero-note">
+      本文档基于多源检索 + 对抗式事实核验生成，列出在日本销售的全部 Summit Series 服装 / 保暖产品线，
+      以全球（美国官网）产品线作为参考对比，并在文末给出针对「夏季北阿尔卑斯约 3000m 帐篷露营、需防寒保暖」的分层建议。
+      全文严格只出现 The North Face Summit Series 产品，不含任何非巅峰系列单品或其他品牌。
+    </p>
+  </div>
+</header>
+
+<!-- ===================== METHODOLOGY ===================== -->
+<div class="method" id="overview">
+  <div class="wrap">
+    <div class="stat"><div class="num cyan">5</div><div class="lbl">检索角度</div></div>
+    <div class="stat"><div class="num">24</div><div class="lbl">信息源</div></div>
+    <div class="stat"><div class="num">112</div><div class="lbl">提取声明</div></div>
+    <div class="stat"><div class="num">25</div><div class="lbl">对抗验证</div></div>
+    <div class="stat"><div class="num cyan">23</div><div class="lbl">确认</div></div>
+    <div class="stat"><div class="num red">2</div><div class="lbl">否决剔除</div></div>
+  </div>
+  <p class="method-cap">
+    研究方法：检索拆解 → 5 路并行检索 → 抓取 24 个来源 → 提取 112 条声明 → 对每条做 <b>3 票对抗式验证（需 2/3 反驳才剔除）</b> → 合并去重、按置信度排序并附来源。
+    生成日期 <b>2026-06-07</b>。共调用 106 个 agent。
+  </p>
+</div>
+
+<!-- ===================== SECTION 01 · JAPAN ===================== -->
+<section id="japan">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-num">01</span>
+      <div class="sec-titles">
+        <p class="sec-eyebrow">JAPAN MARKET · thenorthface.jp</p>
+        <h2>在日本销售的巅峰系列产品线</h2>
+      </div>
+    </div>
+    <p class="sec-intro reveal">
+      在日本官网，Summit Series（サミットシリーズ）被定位为 The North Face 的<strong>「最高峰ライン」（最高峰产品线）</strong>，沿用标语
+      <em>ATHLETE TESTED. EXPEDITION PROVEN.™</em>。<strong>2025 年</strong>，原本的三条产品线 —— Steep（滑る / 滑雪）、Flight（走る / 越野跑）、Summit（登る / 攀登）—— 被
+      <strong>整合为统一的全新 Summit Series</strong>。以下为该系列在日本销售的服装 / 保暖分层核心产品，按分层顺序排列。
+    </p>
+    <p class="sec-intro muted reveal">
+      可信度图例：<span class="pill conf dot">高置信度 · 3-0 验证</span>&nbsp;
+      <span class="pill flag dot">价格 / 区域敏感</span>&nbsp;
+      <span class="pill jp dot">日本有售</span>
+    </p>
+
+    <div class="grid">
+
+      <!-- Hardshell -->
+      <article class="card reveal" style="--accent:var(--cyan)">
+        <div class="cat">硬壳冲锋衣 · WATERPROOF SHELL</div>
+        <h3>Ascent Peak Jacket</h3>
+        <div class="sub">アセントピークジャケット · 顶级防水硬壳</div>
+        <div class="price-row"><span class="price">¥72,600</span><span class="sku">NP62521</span></div>
+        <div class="tags">
+          <span class="tag">GORE-TEX&nbsp;Pro</span><span class="tag">70D</span><span class="tag">ePE 膜</span>
+        </div>
+        <ul>
+          <li>采用最新 ePE 膜重制的 <strong>70 旦尼尔 GORE-TEX Pro</strong>，兼顾耐用与防水透气</li>
+          <li>头盔兼容连帽，可在攀登 / 戴盔时使用</li>
+          <li>双侧腋下<strong>斜开式拉链通风口</strong>，高强度行进时快速排汗散热</li>
+        </ul>
+        <div class="card-foot">
+          <span class="pill jp dot">日本有售</span>
+          <span class="pill conf dot">3-0</span>
+          <span class="src"><a href="https://www.thenorthface.jp/special/summit_series25/products/" target="_blank" rel="noopener">官网 ↗</a></span>
+        </div>
+      </article>
+
+      <!-- Top Down -->
+      <article class="card reveal" style="--accent:var(--orange)">
+        <div class="cat">顶级羽绒 · OUTER WARMTH</div>
+        <h3>Ascent Peak Cloud Down Hoodie</h3>
+        <div class="sub">アセントピーク クラウドダウンフーディ · 系列最高端羽绒</div>
+        <div class="price-row"><span class="price">¥110,000</span><span class="pill flag dot">价格敏感</span></div>
+        <div class="tags">
+          <span class="tag warm">900 FILL POWER</span><span class="tag warm">撥水ダウン</span><span class="tag">Spectra 防撕</span><span class="tag">钛镀膜里衬</span>
+        </div>
+        <ul>
+          <li>使用<strong>最高等级 900 蓬松度</strong>羽绒，且羽绒本身经过<strong>拒水（撥水）处理</strong></li>
+          <li>面料为 <strong>Spectra ripstop</strong> 高强度防撕格纹</li>
+          <li>里衬<strong>钛镀膜</strong>，反射人体辐射热以提升保暖</li>
+        </ul>
+        <div class="card-foot">
+          <span class="pill jp dot">日本有售</span>
+          <span class="pill conf dot">3-0</span>
+          <span class="src"><a href="https://www.thenorthface.jp/special/summit_series25/products/" target="_blank" rel="noopener">官网 ↗</a></span>
+        </div>
+      </article>
+
+      <!-- Active synthetic insulation -->
+      <article class="card reveal" style="--accent:var(--amber)">
+        <div class="cat">主动保温化纤中层 · ACTIVE INSULATION</div>
+        <h3>Ascent Peak HYB VENTRIX Jacket</h3>
+        <div class="sub">アセントピーク ハイブリッド ベントリックスジャケット</div>
+        <div class="price-row"><span class="price">¥33,000</span></div>
+        <div class="tags">
+          <span class="tag warm">VENTRIX</span><span class="tag">主动保温</span><span class="tag">Hybrid 结构</span>
+        </div>
+        <ul>
+          <li>采用 TNF 自研 <strong>VENTRIX（ベントリックス）</strong>保温材料</li>
+          <li>在化纤中棉的关键部位<strong>开有透气切口</strong>，高输出运动时主动排出汗蒸气</li>
+          <li>HYB＝Hybrid 混合结构，兼顾保暖与活动透气</li>
+        </ul>
+        <div class="card-foot">
+          <span class="pill jp dot">日本有售</span>
+          <span class="pill conf dot">3-0</span>
+          <span class="src"><a href="https://www.thenorthface.jp/special/summit_series25/products/" target="_blank" rel="noopener">官网 ↗</a></span>
+        </div>
+      </article>
+
+      <!-- Fleece -->
+      <article class="card reveal" style="--accent:var(--teal)">
+        <div class="cat">抓绒中层 · FLEECE MID-LAYER</div>
+        <h3>Expedition Grid Fleece Full Zip Hoodie</h3>
+        <div class="sub">エクスペディション グリッドフリース · FUTUREFLEECE 抓绒</div>
+        <div class="price-row"><span class="price">¥19,800</span></div>
+        <div class="tags">
+          <span class="tag">FUTUREFLEECE</span><span class="tag">中空异型纱</span><span class="tag">约 1/2 轻量</span>
+        </div>
+        <ul>
+          <li>使用自研 <strong>FUTUREFLEECE（フューチャーフリース）</strong>面料</li>
+          <li>纱线为<strong>带 8 个突起的异型截面中空回收聚酯</strong>，约为普通聚酯纤维的一半重量</li>
+          <li>在保暖与透气之间取得平衡，适合作为活动中层</li>
+        </ul>
+        <div class="card-foot">
+          <span class="pill jp dot">日本有售</span>
+          <span class="pill conf dot">3-0</span>
+          <span class="src"><a href="https://www.thenorthface.jp/special/summit_series25/products/" target="_blank" rel="noopener">官网 ↗</a></span>
+        </div>
+      </article>
+
+      <!-- Active down L3 -->
+      <article class="card reveal" style="--accent:var(--red)">
+        <div class="cat">活动型羽绒 L3 · ACTIVE DOWN MID</div>
+        <h3>L3 50/50 Down Hoodie</h3>
+        <div class="sub">L3 フィフティフィフティ ダウンフーディ</div>
+        <div class="price-row"><span class="price">¥52,800</span><span class="sku">ND52022</span></div>
+        <div class="tags">
+          <span class="tag warm">800 FILL ProDown</span><span class="tag">L3 中层 / 保温</span>
+        </div>
+        <ul>
+          <li>定位为攀登用「活动型羽绒（active down）」L3 中层 / 保温层</li>
+          <li>填充 <strong>800 蓬松度 ProDown</strong>（羽绒 90% / 其他羽毛 10%）</li>
+          <li>「50/50」为型号名称；为既有款式（仍在售），相对较轻</li>
+        </ul>
+        <div class="card-foot">
+          <span class="pill jp dot">日本有售</span>
+          <span class="pill conf dot">3-0</span>
+          <span class="src"><a href="https://www.thenorthface.jp/special/summit5050/" target="_blank" rel="noopener">官网 ↗</a></span>
+        </div>
+      </article>
+
+      <!-- Base layer gap -->
+      <article class="card reveal" style="--accent:var(--muted)">
+        <div class="cat">基础层 · BASE LAYER</div>
+        <h3>日本基础层 SKU 未明确</h3>
+        <div class="sub">待确认 · 见文末「待确认问题」</div>
+        <div class="price-row"><span class="pill warn dot">未在本次研究中确认</span></div>
+        <ul>
+          <li>本次核验<strong>未在日本官网明确检索到</strong>与全球 Pro 120 / DOTKNIT 对应的专门基础层 SKU</li>
+          <li>装备建议中的基础层暂以<strong>全球参考款 Summit Series Pro 120</strong> 代入（见第 04 节与第 02 节）</li>
+          <li>购买前请在 thenorthface.jp 确认日本是否有同级基础层在售</li>
+        </ul>
+        <div class="card-foot">
+          <span class="pill warn dot">待确认</span>
+          <span class="src"><a href="#notes">查看说明 ↓</a></span>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SECTION 02 · GLOBAL ===================== -->
+<section id="global">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-num">02</span>
+      <div class="sec-titles">
+        <p class="sec-eyebrow">GLOBAL REFERENCE · thenorthface.com / en-us</p>
+        <h2>全球（美国官网）巅峰系列产品线 · 参考对比</h2>
+      </div>
+    </div>
+    <p class="sec-intro reveal">
+      美国 / 全球官网的 Summit Series 沿用同一标语，规模更大（核验时男款约 <strong>54 件</strong>，数量随季节 / 库存浮动），
+      在站内划分为 <strong>Climb（攀登）· Trail（越野）· Snow（雪上）</strong> 三个活动子系列，并设有
+      Mid Layers / Shell Layers / Outer Warmth Layers / Base Layers 等分层分类页（另含鞋类与配件）。
+      以下按分层归类列出，仅作<strong>参考对比</strong>，部分型号在日本未必有售。
+    </p>
+    <p class="sec-intro muted reveal">所有条目标记 <span class="pill ref dot">全球参考</span>；价格为时价、随区域 / 季节变化。</p>
+
+    <!-- Shells -->
+    <div class="layer-block reveal">
+      <h3><span class="lt">Shell ·</span> 防水硬壳（两套防水技术）</h3>
+      <p class="ld">全球巅峰系列硬壳采用两种防水技术：自研 <strong>FUTURELIGHT</strong> 与 <strong>GORE-TEX Pro</strong>。</p>
+      <div class="tbl-wrap">
+        <table>
+          <thead><tr><th>产品</th><th>技术 / 结构</th><th>定位</th><th>时价</th><th>核验</th></tr></thead>
+          <tbody>
+            <tr><td><span class="pname">Pumori FUTURELIGHT Jacket</span><span class="psku">NF0A82UN</span></td><td>FUTURELIGHT 3L · 100% 回收尼龙 · 压胶密封</td><td>从大本营到登顶的全密封高山硬壳</td><td><span class="pprice">—</span></td><td><span class="pill conf">3-0</span></td></tr>
+            <tr><td><span class="pname">Papsura FUTURELIGHT Jacket</span><span class="psku">NF0A8A4D</span></td><td>FUTURELIGHT 3L · 100% 回收尼龙 · 可收纳进自身口袋</td><td><strong>系列最轻硬壳</strong> · ISPO Award 2023</td><td><span class="pprice">$390</span></td><td><span class="pill conf">2-1</span></td></tr>
+            <tr><td><span class="pname">Verbier FUTURELIGHT Jacket</span><span class="psku">NF0A82UT</span></td><td>FUTURELIGHT 3L</td><td>巅峰系列硬壳</td><td><span class="pprice">—</span></td><td><span class="pill conf">3-0</span></td></tr>
+            <tr><td><span class="pname">Superior FUTURELIGHT Jacket</span></td><td>FUTURELIGHT（耐水压约 10K）</td><td>偏<strong>越野跑</strong>定位，非严格高山硬壳</td><td><span class="pprice">$360</span></td><td><span class="pill flag">注 ⚑</span></td></tr>
+            <tr><td><span class="pname">Torre Egger FUTURELIGHT Jacket</span></td><td>FUTURELIGHT</td><td>巅峰系列硬壳</td><td><span class="pprice">$620</span></td><td><span class="pill conf">3-0</span></td></tr>
+            <tr><td><span class="pname">Mountain GORE-TEX Pro Jacket</span><span class="psku">NF0A8C9M</span></td><td><strong>GORE-TEX Pro 3L</strong> · 分区 Spectra 防撕</td><td>系列旗舰级 GORE-TEX Pro 硬壳</td><td><span class="pprice">$900</span></td><td><span class="pill conf">3-0</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Insulation -->
+    <div class="layer-block reveal">
+      <h3><span class="lt">Insulation ·</span> 保温 / 羽绒中层</h3>
+      <p class="ld">含 <strong>Breithorn</strong> 羽绒家族、<strong>Casaval</strong> VENTRIX 化纤混合家族，以及极寒用 <strong>Himalayan Down Parka</strong>。</p>
+      <div class="tbl-wrap">
+        <table>
+          <thead><tr><th>产品</th><th>填充 / 技术</th><th>定位</th><th>时价</th><th>核验</th></tr></thead>
+          <tbody>
+            <tr><td><span class="pname">Breithorn Hoodie</span><span class="psku">NF0A87ZM</span></td><td>800 蓬松度 ProDown</td><td>可作中层亦可作外层的羽绒连帽</td><td><span class="pprice">≈$430</span> <span class="pill flag">⚑</span></td><td><span class="pill conf">3-0</span></td></tr>
+            <tr><td><span class="pname">Breithorn Jacket</span></td><td>800 蓬松度 ProDown</td><td>Breithorn 羽绒家族夹克版</td><td><span class="pprice">—</span></td><td><span class="pill conf">3-0</span></td></tr>
+            <tr><td><span class="pname">Breithorn LT Hybrid Hoodie</span><span class="psku">NF0A8C8Y</span></td><td>轻量羽绒混合</td><td>轻量、易压缩的保暖中层</td><td><span class="pprice">$310</span></td><td><span class="pill conf">3-0</span></td></tr>
+            <tr><td><span class="pname">Casaval Hybrid Jacket</span><span class="psku">NF0A8EFS</span></td><td>VENTRIX 化纤主动保温</td><td>登山 / 攀登用创新中层（头盔帽 · 无缝肩部）</td><td><span class="pprice">—</span></td><td><span class="pill conf">3-0</span></td></tr>
+            <tr><td><span class="pname">Casaval Hybrid Hoodie / LT Vest</span></td><td>VENTRIX 化纤主动保温</td><td>Casaval 家族连帽 / 轻量背心</td><td><span class="pprice">—</span></td><td><span class="pill conf">3-0</span></td></tr>
+            <tr><td><span class="pname">Himalayan Down Parka</span><span class="psku">NF0A8C95</span></td><td>CLOUD DOWN 构造 · 800 ProDown · 局部 FUTURELIGHT 拼接</td><td><strong>极寒高山</strong>条件的厚羽绒派克</td><td><span class="pprice">—</span></td><td><span class="pill conf">3-0</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Fleece + Base -->
+    <div class="layer-block reveal">
+      <h3><span class="lt">Fleece &amp; Base ·</span> 抓绒与基础层</h3>
+      <p class="ld">全球线另有 FUTUREFLEECE 抓绒系列与 DOTKNIT 基础层（<strong>Summit Series Pro 120</strong>，EU 称 Summit Pro 120）。基础层分类页约 6 件。</p>
+      <div class="tbl-wrap">
+        <table>
+          <thead><tr><th>产品</th><th>面料 / 克重</th><th>定位</th><th>时价</th><th>核验</th></tr></thead>
+          <tbody>
+            <tr><td><span class="pname">FUTUREFLEECE Full-Zip Hoodie</span><span class="psku">NF0A5J7S</span></td><td>FUTUREFLEECE 抓绒</td><td>全拉链抓绒中层</td><td><span class="pprice">—</span></td><td><span class="pill conf">3-0</span></td></tr>
+            <tr><td><span class="pname">FUTUREFLEECE LT 1/2-Zip</span><span class="psku">NF0A5J8R</span></td><td>FUTUREFLEECE · 100 g/m²</td><td>轻量半拉链抓绒</td><td><span class="pprice">—</span></td><td><span class="pill conf">3-0</span></td></tr>
+            <tr><td><span class="pname">FUTUREFLEECE Pants</span><span class="psku">NF0A7WYA</span></td><td>FUTUREFLEECE · 130 g/m²</td><td>抓绒保暖裤</td><td><span class="pprice">—</span></td><td><span class="pill conf">3-0</span></td></tr>
+            <tr><td><span class="pname">Pro 120 Crew</span><span class="psku">NF0A87ZT</span></td><td><strong>DOTKNIT</strong> · ≈120 g/m² · FlashDry · 拇指孔</td><td>冷天 / 高输出轻量基础层（上衣）</td><td><span class="pprice">$100</span></td><td><span class="pill conf">3-0</span></td></tr>
+            <tr><td><span class="pname">Pro 120 Tights</span><span class="psku">NF0A84PQ</span></td><td>DOTKNIT · 低厚度接缝</td><td>基础层（下身）</td><td><span class="pprice">$110</span></td><td><span class="pill conf">3-0</span></td></tr>
+            <tr><td><span class="pname">High Trail Short-Sleeve</span><span class="psku">NF0A88XC</span></td><td>FLASHDRY-PRO</td><td>偏<strong>越野跑</strong>短袖，非严格基础层</td><td><span class="pprice">—</span></td><td><span class="pill flag">注 ⚑</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="callout">
+        <div class="ch">⚑ 分类说明</div>
+        <p>Superior FUTURELIGHT 与 High Trail SS 在官网更偏向<strong>越野跑</strong>定位（前者耐水压约 10K，后者为跑步短袖），并非传统意义的高山硬壳 / 基础层；列于此处仅为产品线完整性，高山场景请优先考虑上方明确的高山款。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SECTION 03 · TECH ===================== -->
+<section id="tech">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-num">03</span>
+      <div class="sec-titles">
+        <p class="sec-eyebrow">MATERIALS &amp; TECHNOLOGY</p>
+        <h2>关键面料与保暖技术词汇</h2>
+      </div>
+    </div>
+    <p class="sec-intro reveal">读懂上面产品规格所需的核心技术名词，均出自巅峰系列产品的官方 / 验证描述。</p>
+
+    <div class="glossary">
+      <div class="term reveal"><div class="tname">GORE-TEX Pro</div><div class="tzh">最耐用防水透气膜</div><p>GORE 最高耐久级别的防水透气层压。日本 Ascent Peak Jacket 采用 70 旦尼尔 + 最新 ePE 膜；美国 Mountain 款为 GORE-TEX Pro 3L + 分区 Spectra 防撕。</p></div>
+      <div class="term reveal"><div class="tname">FUTURELIGHT</div><div class="tzh">自研纳米纺丝防水膜</div><p>The North Face 自研的防水透气膜技术，多为 3L 结构、100% 回收尼龙面布 + DWR。用于美国线 Pumori / Papsura / Verbier / Torre Egger 等硬壳。</p></div>
+      <div class="term reveal"><div class="tname">VENTRIX</div><div class="tzh">主动保温化纤</div><p>自研化纤保温棉，在关键部位开有切口；静止时闭合保暖，运动发热时张开排出汗蒸气。用于 Ascent Peak HYB VENTRIX 与 Casaval 家族。</p></div>
+      <div class="term reveal"><div class="tname">FUTUREFLEECE</div><div class="tzh">轻量中空抓绒</div><p>自研抓绒：带 8 个突起的异型截面中空回收聚酯纱线，约为普通聚酯一半重量，兼顾保暖与透气。</p></div>
+      <div class="term reveal"><div class="tname">ProDown · CLOUD DOWN</div><div class="tzh">拒水羽绒 / 羽绒构造</div><p>ProDown 为 RDS 认证的拒水处理羽绒（常见 800 蓬松度，90/10）。CLOUD DOWN 为其羽绒充绒构造，用于 Cloud Down Hoodie 与 Himalayan Down Parka。</p></div>
+      <div class="term reveal"><div class="tname">DOTKNIT</div><div class="tzh">导湿基础层针织</div><p>基础层导湿面料：双面针织 + 工程化透气孔、FlashDry 速干，约 120 g/m²，用于 Pro 120 系列，主打冷天高输出。</p></div>
+      <div class="term reveal"><div class="tname">Spectra Ripstop</div><div class="tzh">超强防撕纤维</div><p>超高强度防撕格纹纤维，用作面布或分区加固，如 Cloud Down Hoodie 的面料与 Mountain GORE-TEX Pro 的分区加固。</p></div>
+      <div class="term reveal"><div class="tname">Titanium Lining</div><div class="tzh">钛镀膜里衬</div><p>在里衬镀钛，反射人体辐射热以提升保暖效率，用于顶级的 Ascent Peak Cloud Down Hoodie。</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SECTION 04 · GEAR RECOMMENDATION ===================== -->
+<section id="gear">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-num">04</span>
+      <div class="sec-titles">
+        <p class="sec-eyebrow">RECOMMENDATION · 北阿尔卑斯 3000m · 夏季帐篷露营</p>
+        <h2>装备建议 · 服装与保暖分层</h2>
+      </div>
+    </div>
+    <p class="sec-intro reveal">
+      下面是<strong>完全由巅峰系列产品</strong>搭建的一套分层方案，针对<strong>夏季在日本北阿尔卑斯约 3000m 帐篷露营</strong>的防寒需求。
+      按你的选择，仅覆盖<strong>服装与保暖分层（基础层 / 抓绒 / 主动保温 / 羽绒 / 硬壳 / 配件）</strong>，不含睡袋、帐篷、背包等装备。
+    </p>
+
+    <div class="rec-context">
+      <div class="rec-panel reveal">
+        <h3>为什么夏天也要认真保暖</h3>
+        <p>北阿尔卑斯 3000m 一带，夏季白天行进、有太阳时可达约 10–20°C；但<strong>清晨与夜间营地气温常逼近 0°C</strong>，加上山脊大风、浓雾与午后雷雨，<strong>风寒与潮湿</strong>才是真正的威胁。</p>
+        <p><strong>帐篷露营</strong>意味着没有山小屋的暖意 —— 营地与破晓时段需要扎实的<strong>静态保暖（羽绒）</strong>，行进时则需要能排汗的<strong>主动保温与防风防水外层</strong>。</p>
+      </div>
+      <div class="rec-panel reveal">
+        <h3>环境速览</h3>
+        <div class="env-scale">
+          <div class="env-row"><span class="k">海拔</span><span class="v">≈ 3000 m</span></div>
+          <div class="env-row"><span class="k">季节</span><span class="v">夏季（盛夏）</span></div>
+          <div class="env-row"><span class="k">白天行进</span><span class="v">约 10–20°C</span></div>
+          <div class="env-row"><span class="k">夜间 / 破晓营地</span><span class="v cold">约 0–5°C</span></div>
+          <div class="env-row"><span class="k">主要威胁</span><span class="v cold">风寒 · 降雨 · 浓雾</span></div>
+          <div class="env-row"><span class="k">住宿</span><span class="v">帐篷（无小屋供暖）</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- LAYERING STACK -->
+    <div class="layering">
+      <div class="lay-axis" aria-hidden="true"></div>
+
+      <div class="lay-row reveal">
+        <div class="lay-marker" style="--lc:var(--cyan)"><div class="ln">L1</div><div class="lk">贴身 / 排汗</div></div>
+        <div class="lay-card" style="--lc:var(--cyan)">
+          <div class="lrole">BASE LAYER · 基础层</div>
+          <h4>Summit Series Pro 120 Crew + Tights</h4>
+          <div class="lzh">DOTKNIT 导湿针织 · 约 120 g/m²</div>
+          <div class="pickline"><span class="pill ref dot">全球参考 · 日本未确认</span><span class="tag">DOTKNIT</span><span class="tag">FlashDry</span></div>
+          <p>贴身排汗、冷天高输出定位，是分层的第一层。上衣 <span class="tag neutral">NF0A87ZT</span> 配长裤 <span class="tag neutral">NF0A84PQ</span>。</p>
+          <div class="alt"><b>注意：</b>本次未在日本官网确认对应基础层 SKU。请在 thenorthface.jp 确认日本是否有同级巅峰系列基础层在售；若无，则此层需以全球款代入。</div>
+        </div>
+      </div>
+
+      <div class="lay-row reveal">
+        <div class="lay-marker" style="--lc:var(--teal)"><div class="ln">L2</div><div class="lk">活动保暖</div></div>
+        <div class="lay-card" style="--lc:var(--teal)">
+          <div class="lrole">FLEECE MID · 抓绒中层</div>
+          <h4>Expedition Grid Fleece Full Zip Hoodie</h4>
+          <div class="lzh">FUTUREFLEECE · ¥19,800</div>
+          <div class="pickline"><span class="pill jp dot">日本有售</span><span class="tag">FUTUREFLEECE</span><span class="tag">约 1/2 轻量</span></div>
+          <p>透气、轻量的抓绒，作为行进中的主力保暖层；爬升出汗时不易闷热，停下时也能立刻提供基础暖度。</p>
+        </div>
+      </div>
+
+      <div class="lay-row reveal">
+        <div class="lay-marker" style="--lc:var(--amber)"><div class="ln">L3</div><div class="lk">动态保温</div></div>
+        <div class="lay-card" style="--lc:var(--amber)">
+          <div class="lrole">ACTIVE INSULATION · 主动保温</div>
+          <h4>Ascent Peak HYB VENTRIX Jacket</h4>
+          <div class="lzh">VENTRIX 化纤主动保温 · ¥33,000</div>
+          <div class="pickline"><span class="pill jp dot">日本有售</span><span class="tag warm">VENTRIX</span></div>
+          <p>休息、风大山脊或清晨刚出发时套上：VENTRIX 切口在运动发热时排汗、静止时保暖，是「边走边穿」的理想保温层。</p>
+          <div class="alt"><b>全球参考替代：</b>Casaval Hybrid Hoodie（同为 VENTRIX 主动保温）。</div>
+        </div>
+      </div>
+
+      <div class="lay-row reveal">
+        <div class="lay-marker" style="--lc:var(--orange)"><div class="ln">L4</div><div class="lk">静态保暖 · 营地核心</div></div>
+        <div class="lay-card" style="--lc:var(--orange)">
+          <div class="lrole">DOWN INSULATION · 羽绒（营地 / 破晓）</div>
+          <h4>二选一 · 营地静态羽绒</h4>
+          <div class="lzh">帐篷露营的防寒关键层</div>
+          <div class="pickline"><span class="pill jp dot">日本有售</span></div>
+          <p style="margin-top:4px;"><strong>① L3 50/50 Down Hoodie</strong> · 800 ProDown · ¥52,800 —— 更轻、更透气的「活动型羽绒」，<strong>夏季 3000m 多数情况下足够</strong>，且兼具行进与营地两用，性价比与通用性更佳。</p>
+          <p><strong>② Ascent Peak Cloud Down Hoodie</strong> · 900 蓬松度拒水羽绒 + 钛镀膜里衬 · ¥110,000 —— 系列<strong>最暖</strong>。若你特别怕冷、或预计夜间异常湿冷，选它以换取最大营地暖度。</p>
+          <div class="alt"><b>取舍：</b>静态营地暖度选 ②（900FP 最暖），行进通用与轻量选 ①（800FP 更透气）。两者间无独立实测热阻对比，详见「待确认问题」。<br/><b>全球参考替代：</b>Breithorn Hoodie（800 ProDown）。<span style="color:var(--muted-2)">极寒款 Himalayan Down Parka 对夏季 3000m 属过度配置。</span></div>
+        </div>
+      </div>
+
+      <div class="lay-row reveal">
+        <div class="lay-marker" style="--lc:var(--cyan)"><div class="ln">L5</div><div class="lk">防风 / 防水外层</div></div>
+        <div class="lay-card" style="--lc:var(--cyan)">
+          <div class="lrole">WATERPROOF SHELL · 硬壳</div>
+          <h4>Ascent Peak Jacket</h4>
+          <div class="lzh">70D GORE-TEX Pro（ePE 膜）· ¥72,600</div>
+          <div class="pickline"><span class="pill jp dot">日本有售</span><span class="tag">GORE-TEX Pro</span><span class="tag">头盔帽</span><span class="tag">腋下通风</span></div>
+          <p>应对山脊大风、降雨与浓雾的最外层。腋下斜开通风口便于行进时调节，头盔兼容帽适配高山地形。</p>
+          <div class="alt"><b>更轻替代（全球参考）：</b>Papsura FUTURELIGHT（系列最轻、可收纳进自身口袋）。<br/><b>注意：</b>本次未确认日本是否售卖 FUTURELIGHT 硬壳；在日本，GORE-TEX Pro 的 Ascent Peak Jacket 是已确认的硬壳选择（见「待确认问题」）。</p>
+        </div>
+      </div>
+
+      <div class="lay-row reveal">
+        <div class="lay-marker" style="--lc:var(--muted)"><div class="ln">+</div><div class="lk">配件</div></div>
+        <div class="lay-card" style="--lc:var(--muted)">
+          <div class="lrole">ACCESSORIES · 配件</div>
+          <h4>手套 / 帽子 / 颈套等</h4>
+          <div class="lzh">巅峰系列设有配件分类</div>
+          <div class="pickline"><span class="pill warn dot">具体 SKU 未逐一核验</span></div>
+          <p>全球 Summit Series 设有配件分类，但本次研究<strong>未逐一核验</strong>具体的保暖配件型号（手套 / 毛帽 / 颈套）。请在官网巅峰系列配件分类下确认当季可用型号 —— 营地与破晓的<strong>头部、颈部、双手保暖</strong>对帐篷露营尤为重要。</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- USAGE STRATEGY -->
+    <div class="usage reveal">
+      <h3>穿着策略 · 如何使用这套系统</h3>
+      <ol>
+        <li><b>行进（晴 / 温和）：</b>L1 基础层 + L2 抓绒即可；身体发热后及时减层，避免出汗浸湿。</li>
+        <li><b>风大山脊 / 凉爽行进：</b>在 L2 外加 L3 VENTRIX 主动保温，边走边保暖且能排汗。</li>
+        <li><b>降雨 / 强风 / 浓雾：</b>最外层套 L5 Ascent Peak 硬壳，利用腋下通风口调节闷热。</li>
+        <li><b>抵达营地 / 破晓静止：</b>立即换上 L4 羽绒（800 或 900FP）锁住暖度 —— 这是帐篷露营防寒的核心动作。</li>
+        <li><b>配件：</b>毛帽 + 手套 + 颈套常驻背包顶袋，气温骤降时第一时间补上。</li>
+      </ol>
+    </div>
+
+    <div class="cost reveal">
+      <span class="ct">日本可购层级合计（参考）</span>
+      <span class="cv">¥19,800 + ¥33,000 + （¥52,800 或 ¥110,000）+ ¥72,600</span>
+      <span class="cn">＝ 约 ¥178,200 ～ ¥235,400（不含基础层与配件 · 价格为时价、以官网为准）</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SECTION 05 · NOTES ===================== -->
+<section id="notes">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-num">05</span>
+      <div class="sec-titles">
+        <p class="sec-eyebrow">CAVEATS · OPEN QUESTIONS</p>
+        <h2>注意事项与待确认问题</h2>
+      </div>
+    </div>
+
+    <!-- Refuted claims -->
+    <p class="sec-intro reveal">以下两条说法在对抗式核验中<strong>被否决</strong>，本文档已避免将其作为事实陈述，特此标明：</p>
+    <div class="refuted reveal">
+      <div class="rf">
+        <div class="rfh"><span class="pill warn dot">已否决 1-2</span></div>
+        <div class="strike">「日本 Summit Series 按 SNOW / RUN / MOUNTAIN 三类活动划分」</div>
+        <div class="corr"><b>已核验的正确表述：</b>日本市场的框架是 <b>2025 年将原 Steep（滑）/ Flight（跑）/ Summit（登）整合为统一的 Summit Series</b>。（Climb / Trail / Snow 是<em>美国</em>官网的子系列划分，勿与日本混淆。）</div>
+      </div>
+      <div class="rf">
+        <div class="rfh"><span class="pill warn dot">已否决 0-3</span></div>
+        <div class="strike">「『50/50』指一件兼顾透气与保暖、可边动边穿的设计意图」</div>
+        <div class="corr"><b>已核验的处理方式：</b>「50/50」<b>仅作为型号名称</b>使用，不作为已证实的设计理念叙述。</div>
+      </div>
+    </div>
+
+    <!-- Caveats -->
+    <div class="callout warn reveal" style="margin-top:30px;">
+      <div class="ch">⚠ 数据局限与时效</div>
+      <ul>
+        <li><strong>抓取限制：</strong>美国官网多数分类 / 产品页对自动抓取返回 HTTP 403（反爬），核验主要依赖官方域名搜索摘要 + 授权零售商 / 专业媒体交叉印证；其中美国男款巅峰系列分类页于 2026-06-07 经浏览器实地确认。</li>
+        <li><strong>价格 / 数量随时变动：</strong>日元价格多在产品文案中确认，部分未在实时 SKU 价格页三重确认；美国「约 54 件」随库存 / 季节浮动；Breithorn Hoodie 同时出现 $480 与 $430 两种报价，<strong>$430 证据更充分</strong>。一切以官网当时实价为准。</li>
+        <li><strong>命名因地区而异：</strong>美国 Summit Series Pro 120 ↔ 欧洲 Summit Pro 120；日本使用本地名（Ascent Peak）而美国用 Pumori / Papsura / Mountain / Breithorn / Casaval 等对应同类分层。</li>
+        <li><strong>季节版本：</strong>当前日期 2026-06；日本线引用的是「summit_series25」（2025 季）这一最新已核验系列，2026 可能已有更新但不在本次范围内。</li>
+        <li><strong>建议性质：</strong>文末装备建议是<strong>严格基于已核验巅峰系列产品的综合搭配</strong>，并非独立的实地实测背书。</li>
+      </ul>
+    </div>
+
+    <!-- Open questions -->
+    <p class="sec-intro reveal" style="margin-top:34px;">购买前值得进一步向官网 / 门店确认的开放问题：</p>
+    <div class="oq reveal">
+      <div class="q"><div class="qn">Q1 · 基础层</div><p>日本是否有与全球 Pro 120 / DOTKNIT 对应的专门巅峰系列基础层？本次未在日本官网检索到对应 SKU。</p></div>
+      <div class="q"><div class="qn">Q2 · 硬壳技术</div><p>日本是否售卖 FUTURELIGHT 硬壳（类似 Pumori / Papsura）作为 GORE-TEX Pro Ascent Peak 之外的更轻选择？还是日本 2025 硬壳实质只有 GORE-TEX Pro？</p></div>
+      <div class="q"><div class="qn">Q3 · 实时价格</div><p>Ascent Peak 家族 2026 年的确切含税日元价格与现货状态（部分价格仅在产品文案中确认，且可能有季节更新）。</p></div>
+      <div class="q"><div class="qn">Q4 · 羽绒选型</div><p>3000m 夏季营地，900FP Cloud Down（¥110,000，最暖）与 800FP 50/50（¥52,800，更透气）何者更优？两者无独立热阻对比。</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SECTION 06 · SOURCES ===================== -->
+<section id="sources">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-num">06</span>
+      <div class="sec-titles">
+        <p class="sec-eyebrow">SOURCES · 信息核验来源</p>
+        <h2>数据来源</h2>
+      </div>
+    </div>
+    <p class="sec-intro muted reveal">以下链接仅用于<strong>信息核验与溯源</strong>，不构成对任何非巅峰系列产品或其他品牌的推荐。</p>
+
+    <div class="src-group reveal">
+      <h3>官方一手来源 <span class="q-badge">primary</span></h3>
+      <div class="src-list">
+        <div class="s"><span class="sn">P1</span><a href="https://www.thenorthface.jp/special/summit_series25/products/" target="_blank" rel="noopener">thenorthface.jp/special/summit_series25/products/</a><span class="stag">JP 官网 · 2025</span></div>
+        <div class="s"><span class="sn">P2</span><a href="https://www.thenorthface.jp/special/summit_series/" target="_blank" rel="noopener">thenorthface.jp/special/summit_series/</a><span class="stag">JP 官网 · 系列</span></div>
+        <div class="s"><span class="sn">P3</span><a href="https://www.thenorthface.jp/special/summit5050/" target="_blank" rel="noopener">thenorthface.jp/special/summit5050/</a><span class="stag">JP 官网 · 50/50</span></div>
+        <div class="s"><span class="sn">P4</span><a href="https://www.thenorthface.com/en-us/c/mens/collections/summit-series-324273" target="_blank" rel="noopener">thenorthface.com · Men's Summit Series 合集（2026-06-07 实地确认）</a><span class="stag">US 官网</span></div>
+        <div class="s"><span class="sn">P5</span><a href="https://www.thenorthface.com/en-us/c/shop-all/summit-series-347794" target="_blank" rel="noopener">thenorthface.com · Summit Series Shop-All</a><span class="stag">US 官网</span></div>
+        <div class="s"><span class="sn">P6</span><a href="https://www.thenorthface.com/en-us/c/shop-all/summit-series/summit-series-base-layers-829893" target="_blank" rel="noopener">thenorthface.com · Summit Series Base Layers</a><span class="stag">US 官网</span></div>
+        <div class="s"><span class="sn">P7</span><a href="https://www.thenorthface.com/en-us/about-us/technology-innovation/technology/futurelight" target="_blank" rel="noopener">thenorthface.com · FUTURELIGHT 技术页</a><span class="stag">技术</span></div>
+        <div class="s"><span class="sn">P8</span><a href="https://www.goldwin.co.jp/ap/item/i/m/NF02312" target="_blank" rel="noopener">goldwin.co.jp（TNF 日本运营方）</a><span class="stag">运营方</span></div>
+      </div>
+    </div>
+
+    <div class="src-group reveal">
+      <h3>零售商 / 专业媒体（交叉印证） <span class="q-badge">retail · editorial</span></h3>
+      <div class="src-list">
+        <div class="s"><span class="sn">R1</span><a href="https://www.yamakei-online.com/yama-ya/detail.php?id=2593" target="_blank" rel="noopener">山と溪谷 Yamakei Online</a><span class="stag">JP 媒体</span></div>
+        <div class="s"><span class="sn">R2</span><a href="https://www.outdoorgearlab.com/reviews/clothing-mens/hardshell-jacket/the-north-face-summit-l5-lt-futurelight" target="_blank" rel="noopener">OutdoorGearLab</a><span class="stag">评测</span></div>
+        <div class="s"><span class="sn">R3</span><a href="https://www.outsideonline.com/outdoor-gear/clothing-apparel/north-face-futurelight-review/" target="_blank" rel="noopener">Outside Online · FUTURELIGHT 评测</a><span class="stag">评测</span></div>
+        <div class="s"><span class="sn">R4</span><a href="https://gearjunkie.com/climbing/mountaineering/the-north-face-summit-series-re-think-winter-layer-system" target="_blank" rel="noopener">GearJunkie · Summit Series 分层系统</a><span class="stag">媒体</span></div>
+        <div class="s"><span class="sn">R5</span><a href="https://www.prnewswire.com/news-releases/the-north-face-brings-five-technologies-to-market-with-the-introduction-of-the-summit-series-advanced-mountain-kit-300993301.html" target="_blank" rel="noopener">PR Newswire · Advanced Mountain Kit</a><span class="stag">新闻稿</span></div>
+        <div class="s"><span class="sn">R6</span><a href="https://web.goout.jp/fashion/203307/" target="_blank" rel="noopener">GO OUT（日本户外媒体）</a><span class="stag">JP 媒体</span></div>
+        <div class="s"><span class="sn">R7</span><a href="https://coolhunting.com/style/north-face-summit-series-2015/" target="_blank" rel="noopener">Cool Hunting · Summit Series</a><span class="stag">媒体</span></div>
+      </div>
+    </div>
+
+    <div class="src-group reveal">
+      <h3>实践 / 装备清单参考 <span class="q-badge">practitioner</span></h3>
+      <div class="src-list">
+        <div class="s"><span class="sn">B1</span><a href="https://store.yamap.com/articles/packing-summer-alps-tent" target="_blank" rel="noopener">YAMAP · 夏季阿尔卑斯帐篷装备打包</a><span class="stag">实践</span></div>
+        <div class="s"><span class="sn">B2</span><a href="https://yamatabitabi.com/archives/122282" target="_blank" rel="noopener">山旅々 · 北阿尔卑斯露营分层</a><span class="stag">实践</span></div>
+        <div class="s"><span class="sn">B3</span><a href="https://kenta-kiyomiya.com/2021-46/" target="_blank" rel="noopener">实践博客 · 3000m 夏季分层</a><span class="stag">实践</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer>
+  <div class="wrap">
+    <div class="foot-brand">EXPEDITION PROVEN</div>
+    <span class="constraint-note">✓ 全文仅含 The North Face Summit Series · 巅峰系列产品</span>
+    <div class="foot-meta">
+      <span><b>研究方法：</b>多源检索 + 3 票对抗式事实核验</span>
+      <span><b>核验声明：</b>23 确认 / 2 否决（共 25 条）</span>
+      <span><b>生成日期：</b>2026-06-07</span>
+      <span><b>季节基准：</b>summit_series25（2025 季）</span>
+    </div>
+    <p class="disclaimer">
+      免责声明：本文档为信息整理与综合搭配建议，所有产品名称、规格、价格与可用性均以 The North Face 官方渠道（thenorthface.jp / thenorthface.com）的当时信息为准，可能随季节、地区与库存变动。价格、产品数量与个别规格存在时效性，购买前请以官网实时页面为准。文末装备建议是基于已核验巅峰系列产品的综合搭配，而非独立实地实测背书。高山活动有固有风险，请结合自身经验、天气预报与体能状况判断，并准备本文范围（服装 / 保暖分层）之外的必要装备（如睡眠系统、导航、急救等）。
+    </p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  "use strict";
+
+  // ---- Topographic contour generation (sine-perturbed, deterministic) ----
+  var svg = document.getElementById('topo');
+  if (svg) {
+    var W = 1200, H = 600, cx = 920, cy = 200;
+    var ns = 'http://www.w3.org/2000/svg';
+    var rings = 11;
+    for (var r = 0; r < rings; r++) {
+      var base = 70 + r * 64;
+      var pts = [];
+      var seg = 120;
+      for (var i = 0; i <= seg; i++) {
+        var t = (i / seg) * Math.PI * 2;
+        // layered sine perturbation -> organic contour
+        var rad = base
+          + Math.sin(t * 3 + r * 0.7) * (10 + r * 2.4)
+          + Math.sin(t * 5 + r * 1.3) * (5 + r * 1.1)
+          + Math.cos(t * 2 - r * 0.5) * (8 + r);
+        var x = cx + Math.cos(t) * rad * 1.18;
+        var y = cy + Math.sin(t) * rad * 0.92;
+        pts.push((i === 0 ? 'M' : 'L') + x.toFixed(1) + ',' + y.toFixed(1));
+      }
+      var path = document.createElementNS(ns, 'path');
+      path.setAttribute('d', pts.join(' ') + ' Z');
+      path.setAttribute('fill', 'none');
+      var isIndex = (r % 3 === 0);
+      path.setAttribute('stroke', r < 3 ? '#e8392c' : '#5fcedd');
+      path.setAttribute('stroke-opacity', (0.10 + r * 0.018).toFixed(3));
+      path.setAttribute('stroke-width', isIndex ? '1.5' : '0.8');
+      svg.appendChild(path);
+    }
+  }
+
+  // ---- Scroll reveal ----
+  var reveals = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
+    reveals.forEach(function(el){ io.observe(el); });
+  } else {
+    reveals.forEach(function(el){ el.classList.add('in'); });
+  }
+
+  // ---- Active TOC highlight ----
+  var sections = ['overview','japan','global','tech','gear','notes','sources']
+    .map(function(id){ return document.getElementById(id); })
+    .filter(Boolean);
+  var navAnchors = {};
+  document.querySelectorAll('.navlinks a').forEach(function(a){
+    navAnchors[a.getAttribute('href').slice(1)] = a;
+  });
+  if ('IntersectionObserver' in window && sections.length) {
+    var spy = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if (e.isIntersecting) {
+          Object.keys(navAnchors).forEach(function(k){ navAnchors[k].classList.remove('active'); });
+          var a = navAnchors[e.target.id];
+          if (a) a.classList.add('active');
+        }
+      });
+    }, { rootMargin: '-45% 0px -50% 0px' });
+    sections.forEach(function(s){ spy.observe(s); });
+  }
+})();
+</script>
+</body>
+</html>
