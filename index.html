@@ -194,7 +194,7 @@
   .layer-block h3 .lt{font-family:var(--label);text-transform:uppercase;letter-spacing:.16em;font-size:12px;color:var(--cyan);font-weight:500;}
   .layer-block .ld{color:var(--muted);font-size:13.5px;margin:0 0 16px;max-width:720px;}
   .tbl-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:5px;background:var(--panel);}
-  table{width:100%;border-collapse:collapse;min-width:640px;}
+  table{width:100%;border-collapse:collapse;min-width:720px;}
   thead th{font-family:var(--label);text-transform:uppercase;letter-spacing:.1em;font-size:11px;font-weight:600;color:var(--muted);text-align:left;padding:13px 16px;background:var(--panel-2);border-bottom:1px solid var(--line-strong);white-space:nowrap;}
   tbody td{padding:14px 16px;border-bottom:1px solid var(--line);font-size:13.5px;color:var(--ink-soft);vertical-align:top;}
   tbody tr:last-child td{border-bottom:none;}
@@ -202,6 +202,10 @@
   td .pname{font-family:var(--body);font-weight:700;color:var(--ink);font-size:14.5px;display:block;margin-bottom:3px;}
   td .psku{font-family:var(--mono);font-size:11px;color:var(--muted-2);}
   td .pprice{font-family:var(--mono);font-weight:600;color:var(--ink);white-space:nowrap;}
+  .tbl-thumb{display:inline-block;width:42px;height:52px;border-radius:4px;overflow:hidden;background:linear-gradient(180deg,#edeff1,#e4e7ea);border:1px solid rgba(0,0,0,.14);vertical-align:middle;}
+  .tbl-thumb img{width:100%;height:100%;object-fit:contain;display:block;}
+  td.tcImg,th.tcImg{width:54px;text-align:center;}
+  td.tcImg .na{color:var(--muted-2);font-size:12px;}
 
   /* ---------- GLOSSARY ---------- */
   .glossary{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;margin-top:38px;}
@@ -658,14 +662,14 @@
       <p class="ld">全球巅峰系列硬壳采用两种防水技术：自研 <strong>FUTURELIGHT</strong> 与 <strong>GORE-TEX Pro</strong>。</p>
       <div class="tbl-wrap">
         <table>
-          <thead><tr><th>产品</th><th>技术 / 结构</th><th>定位</th><th>时价</th><th>核验</th></tr></thead>
+          <thead><tr><th class="tcImg"></th><th>产品</th><th>技术 / 结构</th><th>定位</th><th>时价</th><th>核验</th></tr></thead>
           <tbody>
-            <tr><td><span class="pname">Pumori FUTURELIGHT Jacket</span><span class="psku">NF0A82UN</span></td><td>FUTURELIGHT 3L · 100% 回收尼龙 · 压胶密封</td><td>从大本营到登顶的全密封高山硬壳</td><td><span class="pprice">—</span></td><td><span class="pill conf">3-0</span></td></tr>
-            <tr><td><span class="pname">Papsura FUTURELIGHT Jacket</span><span class="psku">NF0A8A4D</span></td><td>FUTURELIGHT 3L · 100% 回收尼龙 · 可收纳进自身口袋</td><td><strong>系列最轻硬壳</strong> · ISPO Award 2023</td><td><span class="pprice">$390</span></td><td><span class="pill conf">2-1</span></td></tr>
-            <tr><td><span class="pname">Verbier FUTURELIGHT Jacket</span><span class="psku">NF0A82UT</span></td><td>FUTURELIGHT 3L</td><td>巅峰系列硬壳</td><td><span class="pprice">—</span></td><td><span class="pill conf">3-0</span></td></tr>
-            <tr><td><span class="pname">Superior FUTURELIGHT Jacket</span></td><td>FUTURELIGHT（耐水压约 10K）</td><td>偏<strong>越野跑</strong>定位，非严格高山硬壳</td><td><span class="pprice">$360</span></td><td><span class="pill flag">注 ⚑</span></td></tr>
-            <tr><td><span class="pname">Torre Egger FUTURELIGHT Jacket</span></td><td>FUTURELIGHT</td><td>巅峰系列硬壳</td><td><span class="pprice">$620</span></td><td><span class="pill conf">3-0</span></td></tr>
-            <tr><td><span class="pname">Mountain GORE-TEX Pro Jacket</span><span class="psku">NF0A8C9M</span></td><td><strong>GORE-TEX Pro 3L</strong> · 分区 Spectra 防撕</td><td>系列旗舰级 GORE-TEX Pro 硬壳</td><td><span class="pprice">$900</span></td><td><span class="pill conf">3-0</span></td></tr>
+            <tr><td class="tcImg"><span class="na">—</span></td><td><span class="pname">Pumori FUTURELIGHT Jacket</span><span class="psku">NF0A82UN</span></td><td>FUTURELIGHT 3L · 100% 回收尼龙 · 压胶密封</td><td>从大本营到登顶的全密封高山硬壳</td><td><span class="pprice">—</span></td><td><span class="pill flag">已轮替</span></td></tr>
+            <tr><td class="tcImg"><span class="tbl-thumb"><img src="images/us-papsura.jpg" alt="Papsura FUTURELIGHT Jacket" loading="lazy" decoding="async"></span></td><td><span class="pname">Papsura FUTURELIGHT Jacket</span><span class="psku">NF0A8A4D</span></td><td>FUTURELIGHT 3L · 100% 回收尼龙 · 可收纳进自身口袋</td><td><strong>系列最轻硬壳</strong> · ISPO Award 2023</td><td><span class="pprice">$390</span></td><td><span class="pill conf">3-0</span></td></tr>
+            <tr><td class="tcImg"><span class="na">—</span></td><td><span class="pname">Verbier FUTURELIGHT Jacket</span><span class="psku">NF0A82UT</span></td><td>FUTURELIGHT 3L</td><td>巅峰系列硬壳</td><td><span class="pprice">—</span></td><td><span class="pill flag">已轮替</span></td></tr>
+            <tr><td class="tcImg"><span class="tbl-thumb"><img src="images/us-superior.jpg" alt="Superior FUTURELIGHT Jacket" loading="lazy" decoding="async"></span></td><td><span class="pname">Superior FUTURELIGHT Jacket</span><span class="psku">NF0A86WG</span></td><td>FUTURELIGHT（耐水压约 10K）</td><td>偏<strong>越野跑</strong>定位，非严格高山硬壳</td><td><span class="pprice">$360</span></td><td><span class="pill flag">注 ⚑</span></td></tr>
+            <tr><td class="tcImg"><span class="tbl-thumb"><img src="images/us-torre-egger.jpg" alt="Torre Egger FUTURELIGHT Jacket" loading="lazy" decoding="async"></span></td><td><span class="pname">Torre Egger FUTURELIGHT Jacket</span><span class="psku">NF0A8C9A</span></td><td>FUTURELIGHT</td><td>巅峰系列硬壳</td><td><span class="pprice">$620</span></td><td><span class="pill conf">3-0</span></td></tr>
+            <tr><td class="tcImg"><span class="tbl-thumb"><img src="images/us-mountain-gtxpro.jpg" alt="Mountain GORE-TEX Pro Jacket" loading="lazy" decoding="async"></span></td><td><span class="pname">Mountain GORE-TEX Pro Jacket</span><span class="psku">NF0A8C9M</span></td><td><strong>GORE-TEX Pro 3L</strong> · 分区 Spectra 防撕</td><td>系列旗舰级 GORE-TEX Pro 硬壳</td><td><span class="pprice">$900</span></td><td><span class="pill conf">3-0</span></td></tr>
           </tbody>
         </table>
       </div>
@@ -677,14 +681,15 @@
       <p class="ld">含 <strong>Breithorn</strong> 羽绒家族、<strong>Casaval</strong> VENTRIX 化纤混合家族，以及极寒用 <strong>Himalayan Down Parka</strong>。</p>
       <div class="tbl-wrap">
         <table>
-          <thead><tr><th>产品</th><th>填充 / 技术</th><th>定位</th><th>时价</th><th>核验</th></tr></thead>
+          <thead><tr><th class="tcImg"></th><th>产品</th><th>填充 / 技术</th><th>定位</th><th>时价</th><th>核验</th></tr></thead>
           <tbody>
-            <tr><td><span class="pname">Breithorn Hoodie</span><span class="psku">NF0A87ZM</span></td><td>800 蓬松度 ProDown</td><td>可作中层亦可作外层的羽绒连帽</td><td><span class="pprice">≈$430</span> <span class="pill flag">⚑</span></td><td><span class="pill conf">3-0</span></td></tr>
-            <tr><td><span class="pname">Breithorn Jacket</span></td><td>800 蓬松度 ProDown</td><td>Breithorn 羽绒家族夹克版</td><td><span class="pprice">—</span></td><td><span class="pill conf">3-0</span></td></tr>
-            <tr><td><span class="pname">Breithorn LT Hybrid Hoodie</span><span class="psku">NF0A8C8Y</span></td><td>轻量羽绒混合</td><td>轻量、易压缩的保暖中层</td><td><span class="pprice">$310</span></td><td><span class="pill conf">3-0</span></td></tr>
-            <tr><td><span class="pname">Casaval Hybrid Jacket</span><span class="psku">NF0A8EFS</span></td><td>VENTRIX 化纤主动保温</td><td>登山 / 攀登用创新中层（头盔帽 · 无缝肩部）</td><td><span class="pprice">—</span></td><td><span class="pill conf">3-0</span></td></tr>
-            <tr><td><span class="pname">Casaval Hybrid Hoodie / LT Vest</span></td><td>VENTRIX 化纤主动保温</td><td>Casaval 家族连帽 / 轻量背心</td><td><span class="pprice">—</span></td><td><span class="pill conf">3-0</span></td></tr>
-            <tr><td><span class="pname">Himalayan Down Parka</span><span class="psku">NF0A8C95</span></td><td>CLOUD DOWN 构造 · 800 ProDown · 局部 FUTURELIGHT 拼接</td><td><strong>极寒高山</strong>条件的厚羽绒派克</td><td><span class="pprice">—</span></td><td><span class="pill conf">3-0</span></td></tr>
+            <tr><td class="tcImg"><span class="tbl-thumb"><img src="images/us-breithorn-hoodie.jpg" alt="Breithorn Hoodie" loading="lazy" decoding="async"></span></td><td><span class="pname">Breithorn Hoodie</span><span class="psku">NF0A87ZM</span></td><td>800 蓬松度 ProDown</td><td>可作中层亦可作外层的羽绒连帽</td><td><span class="pprice">$480</span></td><td><span class="pill conf">3-0</span></td></tr>
+            <tr><td class="tcImg"><span class="tbl-thumb"><img src="images/us-breithorn-jacket.jpg" alt="Breithorn Jacket" loading="lazy" decoding="async"></span></td><td><span class="pname">Breithorn Jacket</span><span class="psku">NF0A87ZN</span></td><td>800 蓬松度 ProDown</td><td>Breithorn 羽绒家族夹克版</td><td><span class="pprice">$430</span></td><td><span class="pill conf">3-0</span></td></tr>
+            <tr><td class="tcImg"><span class="tbl-thumb"><img src="images/us-breithorn-lt.jpg" alt="Breithorn LT Hybrid Hoodie" loading="lazy" decoding="async"></span></td><td><span class="pname">Breithorn LT Hybrid Hoodie</span><span class="psku">NF0A8C8Y</span></td><td>轻量羽绒混合</td><td>轻量、易压缩的保暖中层</td><td><span class="pprice">$310</span></td><td><span class="pill conf">3-0</span></td></tr>
+            <tr><td class="tcImg"><span class="tbl-thumb"><img src="images/us-casaval-hybrid-jacket.jpg" alt="Casaval Hybrid Jacket" loading="lazy" decoding="async"></span></td><td><span class="pname">Casaval Hybrid Jacket</span><span class="psku">NF0A8EFS</span></td><td>VENTRIX 化纤主动保温</td><td>登山 / 攀登用创新中层（头盔帽 · 无缝肩部）</td><td><span class="pprice">$240</span></td><td><span class="pill conf">3-0</span></td></tr>
+            <tr><td class="tcImg"><span class="tbl-thumb"><img src="images/us-casaval-hybrid-hoodie.jpg" alt="Casaval Hybrid Hoodie" loading="lazy" decoding="async"></span></td><td><span class="pname">Casaval Hybrid Hoodie</span><span class="psku">NF0A7UTA</span></td><td>VENTRIX 化纤主动保温</td><td>Casaval 家族连帽中层</td><td><span class="pprice">$290</span></td><td><span class="pill conf">3-0</span></td></tr>
+            <tr><td class="tcImg"><span class="tbl-thumb"><img src="images/us-casaval-lt-vest.jpg" alt="Casaval LT Vest" loading="lazy" decoding="async"></span></td><td><span class="pname">Casaval LT Vest</span><span class="psku">NF0A8C8Z</span></td><td>VENTRIX 化纤主动保温</td><td>Casaval 家族轻量背心</td><td><span class="pprice">$170</span></td><td><span class="pill conf">3-0</span></td></tr>
+            <tr><td class="tcImg"><span class="na">—</span></td><td><span class="pname">Himalayan Down Parka</span><span class="psku">NF0A8C95</span></td><td>CLOUD DOWN 构造 · 800 ProDown · 局部 FUTURELIGHT 拼接</td><td><strong>极寒高山</strong>厚羽绒派克（2026 由 CLOUD DOWN AMK Parka 取代）</td><td><span class="pprice">—</span></td><td><span class="pill flag">已轮替</span></td></tr>
           </tbody>
         </table>
       </div>
@@ -696,14 +701,14 @@
       <p class="ld">全球线另有 FUTUREFLEECE 抓绒系列与 DOTKNIT 基础层（<strong>Summit Series Pro 120</strong>，EU 称 Summit Pro 120）。基础层分类页约 6 件。</p>
       <div class="tbl-wrap">
         <table>
-          <thead><tr><th>产品</th><th>面料 / 克重</th><th>定位</th><th>时价</th><th>核验</th></tr></thead>
+          <thead><tr><th class="tcImg"></th><th>产品</th><th>面料 / 克重</th><th>定位</th><th>时价</th><th>核验</th></tr></thead>
           <tbody>
-            <tr><td><span class="pname">FUTUREFLEECE Full-Zip Hoodie</span><span class="psku">NF0A5J7S</span></td><td>FUTUREFLEECE 抓绒</td><td>全拉链抓绒中层</td><td><span class="pprice">—</span></td><td><span class="pill conf">3-0</span></td></tr>
-            <tr><td><span class="pname">FUTUREFLEECE LT 1/2-Zip</span><span class="psku">NF0A5J8R</span></td><td>FUTUREFLEECE · 100 g/m²</td><td>轻量半拉链抓绒</td><td><span class="pprice">—</span></td><td><span class="pill conf">3-0</span></td></tr>
-            <tr><td><span class="pname">FUTUREFLEECE Pants</span><span class="psku">NF0A7WYA</span></td><td>FUTUREFLEECE · 130 g/m²</td><td>抓绒保暖裤</td><td><span class="pprice">—</span></td><td><span class="pill conf">3-0</span></td></tr>
-            <tr><td><span class="pname">Pro 120 Crew</span><span class="psku">NF0A87ZT</span></td><td><strong>DOTKNIT</strong> · ≈120 g/m² · FlashDry · 拇指孔</td><td>冷天 / 高输出轻量基础层（上衣）</td><td><span class="pprice">$100</span></td><td><span class="pill conf">3-0</span></td></tr>
-            <tr><td><span class="pname">Pro 120 Tights</span><span class="psku">NF0A84PQ</span></td><td>DOTKNIT · 低厚度接缝</td><td>基础层（下身）</td><td><span class="pprice">$110</span></td><td><span class="pill conf">3-0</span></td></tr>
-            <tr><td><span class="pname">High Trail Short-Sleeve</span><span class="psku">NF0A88XC</span></td><td>FLASHDRY-PRO</td><td>偏<strong>越野跑</strong>短袖，非严格基础层</td><td><span class="pprice">—</span></td><td><span class="pill flag">注 ⚑</span></td></tr>
+            <tr><td class="tcImg"><span class="na">—</span></td><td><span class="pname">FUTUREFLEECE Full-Zip Hoodie</span><span class="psku">NF0A5J7S</span></td><td>FUTUREFLEECE 抓绒</td><td>全拉链抓绒中层</td><td><span class="pprice">—</span></td><td><span class="pill flag">已轮替</span></td></tr>
+            <tr><td class="tcImg"><span class="tbl-thumb"><img src="images/us-futurefleece-lt.jpg" alt="FUTUREFLEECE LT Zip" loading="lazy" decoding="async"></span></td><td><span class="pname">FUTUREFLEECE LT 1/2-Zip</span><span class="psku">NF0A5J8R</span></td><td>FUTUREFLEECE · 100 g/m²</td><td>轻量半拉链抓绒</td><td><span class="pprice">$170</span></td><td><span class="pill conf">3-0</span></td></tr>
+            <tr><td class="tcImg"><span class="tbl-thumb"><img src="images/us-futurefleece-pants.jpg" alt="FUTUREFLEECE Pants" loading="lazy" decoding="async"></span></td><td><span class="pname">FUTUREFLEECE Pants</span><span class="psku">NF0A7WYA</span></td><td>FUTUREFLEECE · 130 g/m²</td><td>抓绒保暖裤</td><td><span class="pprice">$150</span></td><td><span class="pill conf">3-0</span></td></tr>
+            <tr><td class="tcImg"><span class="tbl-thumb"><img src="images/us-pro120-crew.jpg" alt="Pro 120 Crew" loading="lazy" decoding="async"></span></td><td><span class="pname">Pro 120 Crew</span><span class="psku">NF0A87ZT</span></td><td><strong>DOTKNIT</strong> · ≈120 g/m² · FlashDry · 拇指孔</td><td>冷天 / 高输出轻量基础层（上衣）</td><td><span class="pprice">$100</span></td><td><span class="pill conf">3-0</span></td></tr>
+            <tr><td class="tcImg"><span class="tbl-thumb"><img src="images/us-pro120-tights.jpg" alt="Pro 120 Tights" loading="lazy" decoding="async"></span></td><td><span class="pname">Pro 120 Tights</span><span class="psku">NF0A84PQ</span></td><td>DOTKNIT · 低厚度接缝</td><td>基础层（下身）</td><td><span class="pprice">$110</span></td><td><span class="pill conf">3-0</span></td></tr>
+            <tr><td class="tcImg"><span class="tbl-thumb"><img src="images/us-high-trail-ss.jpg" alt="High Trail Short-Sleeve" loading="lazy" decoding="async"></span></td><td><span class="pname">High Trail Short-Sleeve</span><span class="psku">NF0A88XC</span></td><td>FLASHDRY-PRO</td><td>偏<strong>越野跑</strong>短袖，非严格基础层</td><td><span class="pprice">$85</span></td><td><span class="pill flag">注 ⚑</span></td></tr>
           </tbody>
         </table>
       </div>
