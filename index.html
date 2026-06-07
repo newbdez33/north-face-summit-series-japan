@@ -158,6 +158,11 @@
   .sku{font-family:var(--mono);font-size:11px;color:var(--muted-2);letter-spacing:.04em;}
   a.sku{color:var(--muted);border-bottom:1px dotted rgba(255,255,255,.25);transition:color .2s,border-color .2s;}
   a.sku:hover{color:var(--cyan);border-color:var(--cyan);}
+  /* product image tile */
+  .card-img{display:block;margin:-24px -22px 18px;height:218px;background:linear-gradient(180deg,#edeff1,#e4e7ea);overflow:hidden;border-bottom:1px solid rgba(0,0,0,.08);position:relative;}
+  .card-img img{width:100%;height:100%;object-fit:contain;display:block;transition:transform .55s cubic-bezier(.2,.7,.2,1);}
+  .card-img:hover img{transform:scale(1.045);}
+  .card-img .imgtag{position:absolute;right:8px;bottom:8px;font-family:var(--label);text-transform:uppercase;letter-spacing:.08em;font-size:9px;color:#6a7178;background:rgba(255,255,255,.7);padding:2px 7px;border-radius:2px;}
   .card ul{list-style:none;margin:14px 0;padding:0;}
   .card ul li{position:relative;padding-left:18px;font-size:13.5px;color:var(--ink-soft);margin-bottom:7px;line-height:1.55;}
   .card ul li::before{content:"";position:absolute;left:0;top:9px;width:7px;height:1.5px;background:var(--accent,var(--red));}
@@ -392,6 +397,7 @@
 
       <!-- Hardshell -->
       <article class="card reveal" style="--accent:var(--cyan)">
+        <a class="card-img" href="https://www.yodobashi.com/product/100000001009270898/" target="_blank" rel="noopener"><img src="images/ascent-peak-jacket.jpg" alt="Ascent Peak Jacket 产品图" loading="lazy" decoding="async" /><span class="imgtag">thenorthface.jp</span></a>
         <div class="cat">硬壳冲锋衣 · WATERPROOF SHELL</div>
         <h3>Ascent Peak Jacket</h3>
         <div class="sub">アセントピークジャケット · 顶级防水硬壳</div>
@@ -413,6 +419,7 @@
 
       <!-- Top Down -->
       <article class="card reveal" style="--accent:var(--orange)">
+        <a class="card-img" href="https://www.thenorthface.jp/special/summit_series25/products/" target="_blank" rel="noopener"><img src="images/ascent-peak-cloud-down-hoodie.jpg" alt="Ascent Peak Cloud Down Hoodie 产品图" loading="lazy" decoding="async" /><span class="imgtag">thenorthface.jp</span></a>
         <div class="cat">顶级羽绒 · OUTER WARMTH</div>
         <h3>Ascent Peak Cloud Down Hoodie</h3>
         <div class="sub">アセントピーク クラウドダウンフーディ · 系列最高端羽绒</div>
@@ -434,6 +441,7 @@
 
       <!-- Active synthetic insulation -->
       <article class="card reveal" style="--accent:var(--amber)">
+        <a class="card-img" href="https://www.thenorthface.jp/special/summit_series25/products/" target="_blank" rel="noopener"><img src="images/ascent-peak-hyb-ventrix-jacket.jpg" alt="Ascent Peak HYB VENTRIX Jacket 产品图" loading="lazy" decoding="async" /><span class="imgtag">thenorthface.jp</span></a>
         <div class="cat">主动保温化纤中层 · ACTIVE INSULATION</div>
         <h3>Ascent Peak HYB VENTRIX Jacket</h3>
         <div class="sub">アセントピーク ハイブリッド ベントリックスジャケット</div>
@@ -455,6 +463,7 @@
 
       <!-- Fleece -->
       <article class="card reveal" style="--accent:var(--teal)">
+        <a class="card-img" href="https://www.goldwin.co.jp/ap/item/i/m/NL22622" target="_blank" rel="noopener"><img src="images/expedition-grid-fleece-full-zip-hoodie.jpg" alt="Expedition Grid Fleece Full Zip Hoodie 产品图" loading="lazy" decoding="async" /><span class="imgtag">thenorthface.jp</span></a>
         <div class="cat">抓绒中层 · FLEECE MID-LAYER</div>
         <h3>Expedition Grid Fleece Full Zip Hoodie</h3>
         <div class="sub">エクスペディション グリッドフリース · FUTUREFLEECE 抓绒</div>
@@ -476,6 +485,7 @@
 
       <!-- Active down L3 -->
       <article class="card reveal" style="--accent:var(--red)">
+        <a class="card-img" href="https://www.yodobashi.com/product/100000001005736593/" target="_blank" rel="noopener"><img src="images/l3-50-50-down-hoodie.jpg" alt="L3 50/50 Down Hoodie 产品图" loading="lazy" decoding="async" /><span class="imgtag">yodobashi.com</span></a>
         <div class="cat">活动型羽绒 L3 · ACTIVE DOWN MID</div>
         <h3>L3 50/50 Down Hoodie</h3>
         <div class="sub">L3 フィフティフィフティ ダウンフーディ</div>
@@ -864,7 +874,7 @@
       <span><b>季节基准：</b>summit_series25（2025 季）</span>
     </div>
     <p class="disclaimer">
-      免责声明：本文档为信息整理与综合搭配建议，所有产品名称、规格、价格与可用性均以 The North Face 官方渠道（thenorthface.jp / thenorthface.com）的当时信息为准，可能随季节、地区与库存变动。价格、产品数量与个别规格存在时效性，购买前请以官网实时页面为准。文末装备建议是基于已核验巅峰系列产品的综合搭配，而非独立实地实测背书。高山活动有固有风险，请结合自身经验、天气预报与体能状况判断，并准备本文范围（服装 / 保暖分层）之外的必要装备（如睡眠系统、导航、急救等）。
+      免责声明：本文档为信息整理与综合搭配建议，所有产品名称、规格、价格与可用性均以 The North Face 官方渠道（thenorthface.jp / thenorthface.com）的当时信息为准，可能随季节、地区与库存变动。价格、产品数量与个别规格存在时效性，购买前请以官网实时页面为准。文末装备建议是基于已核验巅峰系列产品的综合搭配，而非独立实地实测背书。高山活动有固有风险，请结合自身经验、天气预报与体能状况判断，并准备本文范围（服装 / 保暖分层）之外的必要装备（如睡眠系统、导航、急救等）。<br/>产品图片取自官方（thenorthface.jp）及 Yodobashi 商品页，版权归 The North Face 及各权利人所有，本页仅作识别与参考之用。
     </p>
   </div>
 </footer>
